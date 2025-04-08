@@ -1,1 +1,61 @@
+Data Visualization and Storytelling
+Objective: Create visualizations 
+Tools: Tableau / Power BI
+Dataset: Global Superstore.csv or sales data
 
+# Create a storyboard text content for easy copy-pasting into PowerPoint
+storyboard_text = """
+Global Superstore Data Storytelling - Power BI Storyboard Template
+
+Slide 1: Title Slide
+- Title: Global Superstore Data Storytelling
+- Subtitle: Power BI Storyboard Template
+
+Slide 2: Executive Summary
+- KPIs: Total Sales, Profit, Profit Margin, Orders
+- Use Card visuals for high-level metrics
+- Provide quick snapshot of business health
+
+Slide 3: Regional Performance
+- Visual: Map or Bar Chart
+- Fields: Region, State, Sales, Profit
+- Compare regional strengths and weaknesses
+
+Slide 4: Product Performance
+- Visual: TreeMap or Clustered Bar
+- Fields: Category, Sub-Category, Profit, Sales
+- Identify top and underperforming products
+
+Slide 5: Sales vs Discount
+- Visual: Scatter Plot
+- Fields: Discount, Profit, Sales
+- Reveal how discounts affect profitability
+
+Slide 6: Top & Bottom Products
+- Visual: Bar Chart
+- Sort by Profit to show top/bottom 10 products
+- Add conditional formatting if possible
+
+Slide 7: Customer Segment Analysis
+- Visual: Pie or Bar Chart
+- Segment by: Consumer, Corporate, Home Office
+- Highlight profitable customer types
+
+Slide 8: Monthly Sales Trends
+- Visual: Line Chart
+- Axis: Order Date (Monthly)
+- Show seasonality and trends over time
+
+Slide 9: Recommendations
+- Reduce discounting on low-margin items
+- Target Corporate customers with marketing
+- Phase out loss-making products
+- Improve delivery/logistics in weak regions
+
+
+# Save as a text file
+text_file_path = "/mnt/data/Global_Superstore_Storyboard_Notes.txt"
+with open(text_file_path, "w") as file:
+    file.write(storyboard_text)
+
+text_file_path
